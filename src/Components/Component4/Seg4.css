@@ -1,0 +1,152 @@
+.outeR {
+  width: 100%;
+  padding: 8rem;
+  padding-bottom: 4rem;
+}
+.innerCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerCont h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.innerCont p {
+  font-size: 1.4rem;
+}
+.line {
+  color: black;
+  width: 20px;
+  border: 1px solid black;
+  background: black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.buildingListCont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.buildingCont {
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  border-radius: 14px;
+}
+
+.buildingCont:hover {
+  box-shadow: 0 2.8px 2.2px #00000009, 0 6.7px 5.3px #0000000c,
+    0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px #00000012,
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px #0000001f;
+
+  transition: 0.2s ease-in-out;
+}
+
+.top {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+
+.top img {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px 14px 0px 0px;
+}
+
+.bottom {
+  width: 100%;
+  height: 120px;
+  padding: 1rem;
+}
+
+.bottom h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.bottom p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.btnCont {
+  width: 100%;
+  padding: 2rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(12, 12, 166, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+}
+.btnCont h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+.btnCont h3 span {
+  margin-left: 1rem;
+}
+
+.btn {
+  padding: 1rem 1rem;
+  width: fit-content;
+  color: black;
+  border: none;
+  background-color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+@media (max-width: 565px) {
+  .btn {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .outeR {
+    padding: 3rem;
+  }
+}
+
+
+/* FOOTER */
+.outFooter{
+    padding: 2rem;
+    background-color: black;
+    display: flex;
+}
+.innFooter{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.innFooter h3{
+    font-size: 2.7rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.textify{
+    display: inline;
+    font-size: 1rem;
+    color: white;
+    margin-top: .5rem;
+    padding-left: -5.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+

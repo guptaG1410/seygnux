@@ -1,0 +1,77 @@
+.outerCont {
+  width: 100%;
+  padding: 8rem;
+  font-family: 'Poppins';
+}
+.innerCont {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.innerCont h1 {
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+.innerCont p {
+  font-size: 1.2rem;
+}
+.line {
+  color: black;
+  width: 20px;
+  border: 1px solid black;
+  background: black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.infoCont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.infoItem:hover {
+  box-shadow: 0 2.8px 2.2px #00000009,
+    0 6.7px 5.3px #0000000c, 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px #00000012, 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px #0000001f;
+
+    transition: 0.2s ease-in-out;
+}
+
+.infoItem {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.infoItem h3 {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.infoItem p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.infoItem button {
+  padding: 0.5rem;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 500px) {
+  .outerCont {
+    padding: 2rem;
+  }
+  .innerCont {
+    width: 90%;
+    margin: auto;
+  }
+}
